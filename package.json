@@ -1,7 +1,7 @@
 {
 	"name": "sequential-workflow-abraham",
 	"description": "React wrapper for Sequential Workflow Designer component.",
-	"version": "0.19.4",
+	"version": "0.1.0",
 	"type": "module",
 	"main": "./lib/esm/index.js",
 	"types": "./lib/index.d.ts",
