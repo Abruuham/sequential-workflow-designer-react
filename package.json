@@ -1,5 +1,5 @@
 {
-	"name": "sequential-workflow-designer-react",
+	"name": "sequential-workflow-abraham",
 	"description": "React wrapper for Sequential Workflow Designer component.",
 	"version": "0.19.4",
 	"type": "module",
@@ -34,7 +34,7 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"scripts": {
-		"prepare": "cp ../LICENSE LICENSE",
+		"prepare": "",
 		"clean": "rm -rf lib && rm -rf build && rm -rf node_modules/.cache/rollup-plugin-typescript2",
 		"start": "rollup -c --watch",
 		"build": "yarn clean && rollup -c",
