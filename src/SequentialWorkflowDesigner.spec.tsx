@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, waitFor } from '@testing-library/react';
-import { Definition } from 'sequential-workflow-designer';
+import { Definition } from 'sequential';
 import { SequentialWorkflowDesigner } from './SequentialWorkflowDesigner';
 import { wrapDefinition, WrappedDefinition } from './WrappedDefinition';
 import { SequentialWorkflowDesignerController } from './SequentialWorkflowDesignerController';

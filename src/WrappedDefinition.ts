@@ -1,4 +1,4 @@
-import { Definition } from 'sequential-workflow-designer';
+import { Definition } from 'sequential';
 
 export interface WrappedDefinition<TDefinition extends Definition = Definition> {
 	readonly value: TDefinition;

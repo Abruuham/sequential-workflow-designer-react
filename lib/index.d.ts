@@ -2,7 +2,7 @@
 import { MutableRefObject, Context, ReactNode, DependencyList } from 'react';
 import ReactDOM from 'react-dom/client';
 import * as react_jsx_runtime from 'react/jsx-runtime';
-import { Definition, RootEditorContext, Designer, ToolboxConfiguration, RootEditorProvider, StepEditorProvider, StepsConfiguration, ValidatorConfiguration, KeyboardConfiguration, CustomActionHandler, DesignerExtension, Step, StepEditorContext } from 'sequential-workflow-designer';
+import { Definition, RootEditorContext, Designer, ToolboxConfiguration, RootEditorProvider, StepEditorProvider, StepsConfiguration, ValidatorConfiguration, KeyboardConfiguration, CustomActionHandler, DesignerExtension, Step, StepEditorContext } from 'sequential';
 
 declare class Presenter {
     static render(className: string, rootRef: MutableRefObject<ReactDOM.Root | null>, element: JSX.Element): HTMLElement;

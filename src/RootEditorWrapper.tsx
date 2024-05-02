@@ -1,5 +1,5 @@
 import { Context, createContext, useContext, useState, ReactNode } from 'react';
-import { Definition, RootEditorContext, PropertyValue } from 'sequential-workflow-designer';
+import { Definition, RootEditorContext, PropertyValue } from 'sequential';
 
 declare global {
 	interface Window {

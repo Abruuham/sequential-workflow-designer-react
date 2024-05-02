@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Definition, RootEditorContext } from 'sequential-workflow-designer';
+import { Definition, RootEditorContext } from 'sequential';
 import { RootEditorWrapperContext, useRootEditor } from './RootEditorWrapper';
 
 describe('RootEditorWrapper', () => {

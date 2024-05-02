@@ -1,5 +1,5 @@
 import { Context, ReactNode } from 'react';
-import { StepEditorContext, Step, Definition } from 'sequential-workflow-designer';
+import { StepEditorContext, Step, Definition } from 'sequential';
 declare global {
     interface Window {
         sqdStepEditorContext?: Context<StepEditorWrapper | null>;

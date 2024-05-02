@@ -1,23 +1,23 @@
-![Sequential Workflow Designer for React](https://raw.githubusercontent.com/nocode-js/sequential-workflow-designer/main/.github/cover.png)
+![Sequential Workflow Designer for React](https://raw.githubusercontent.com/nocode-js/sequential/main/.github/cover.png)
 
 # Sequential Workflow Designer for React
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fb4rtaz%2Fsequential-workflow-designer%2Fbadge%3Fref%3Dmain&style=flat-square)](https://actions-badge.atrox.dev/b4rtaz/sequential-workflow-designer/goto?ref=main) [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](/LICENSE) [![View this project on NPM](https://img.shields.io/npm/v/sequential-workflow-designer-react.svg?style=flat-square)](https://npmjs.org/package/sequential-workflow-designer-react)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fb4rtaz%2Fsequential%2Fbadge%3Fref%3Dmain&style=flat-square)](https://actions-badge.atrox.dev/b4rtaz/sequential/goto?ref=main) [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](/LICENSE) [![View this project on NPM](https://img.shields.io/npm/v/sequential-react.svg?style=flat-square)](https://npmjs.org/package/sequential-react)
 
-React wrapper for the [Sequential Workflow Designer](https://github.com/nocode-js/sequential-workflow-designer) component.
+React wrapper for the [Sequential Workflow Designer](https://github.com/nocode-js/sequential) component.
 
 ## 🚀 Installation
 
 Install the following packages by [NPM](https://www.npmjs.com/) command:
 
-`npm i sequential-workflow-designer sequential-workflow-designer-react`
+`npm i sequential sequential-react`
 
 Add CSS files to your app:
 
 ```tsx
-import 'sequential-workflow-designer/css/designer.css';
-import 'sequential-workflow-designer/css/designer-light.css';
-import 'sequential-workflow-designer/css/designer-dark.css';
+import 'sequential/css/designer.css';
+import 'sequential/css/designer-light.css';
+import 'sequential/css/designer-dark.css';
 ```
 
 ## 🎬 Usage
@@ -30,13 +30,13 @@ import {
   ToolboxConfiguration,
   StepsConfiguration,
   ValidatorConfiguration
-} from 'sequential-workflow-designer';
+} from 'sequential';
 import {
   SequentialWorkflowDesigner,
   wrapDefinition,
   useRootEditor,
   useStepEditor
-} from 'sequential-workflow-designer-react';
+} from 'sequential-react';
 ```
 
 Create or load your definition of a workflow.
@@ -126,7 +126,7 @@ You can hide any UI component.
   />
 ```
 
-Check the [demo project](https://github.com/nocode-js/sequential-workflow-designer/tree/main/demos/react-app).
+Check the [demo project](https://github.com/nocode-js/sequential/tree/main/demos/react-app).
 
 ## 💡 License
 

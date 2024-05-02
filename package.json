@@ -25,7 +25,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/nocode-js/sequential-workflow-designer.git"
+		"url": "https://github.com/nocode-js/sequential.git"
 	},
 	"files": [
 		"lib/"
@@ -47,7 +47,7 @@
 	"peerDependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"sequential-workflow-designer": "github:Abruuham/sequential#main"
+		"sequential": "github:Abruuham/sequential#main"
 	},
 	"devDependencies": {
 		"@rollup/plugin-node-resolve": "^15.0.1",
@@ -63,7 +63,7 @@
 		"prettier": "^2.8.2",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"sequential-workflow-designer": "github:Abruuham/sequential#main",
+		"sequential": "github:Abruuham/sequential#main",
 		"rollup": "^3.18.0",
 		"rollup-plugin-dts": "^5.2.0",
 		"rollup-plugin-typescript2": "^0.34.1",

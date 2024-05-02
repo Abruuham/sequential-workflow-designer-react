@@ -1,5 +1,5 @@
 import { DependencyList } from 'react';
-import { Definition, Designer } from 'sequential-workflow-designer';
+import { Definition, Designer } from 'sequential';
 export declare class SequentialWorkflowDesignerController {
     static create(): SequentialWorkflowDesignerController;
     private designer;

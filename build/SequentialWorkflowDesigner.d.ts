@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { Definition, ToolboxConfiguration, StepsConfiguration, DesignerExtension, CustomActionHandler, ValidatorConfiguration, RootEditorProvider, StepEditorProvider, KeyboardConfiguration } from 'sequential-workflow-designer';
+import { Definition, ToolboxConfiguration, StepsConfiguration, DesignerExtension, CustomActionHandler, ValidatorConfiguration, RootEditorProvider, StepEditorProvider, KeyboardConfiguration } from 'sequential';
 import { WrappedDefinition } from './WrappedDefinition';
 import { SequentialWorkflowDesignerController } from './SequentialWorkflowDesignerController';
 export type ReactToolboxConfiguration = Omit<ToolboxConfiguration, 'isCollapsed'>;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Definition, Step, StepEditorContext } from 'sequential-workflow-designer';
+import { Definition, Step, StepEditorContext } from 'sequential';
 import { StepEditorWrapperContext, useStepEditor } from './StepEditorWrapper';
 
 describe('StepEditorWrapper', () => {

@@ -1,5 +1,5 @@
 import { Context, ReactNode } from 'react';
-import { Definition, RootEditorContext } from 'sequential-workflow-designer';
+import { Definition, RootEditorContext } from 'sequential';
 declare global {
     interface Window {
         sqdRootEditorContext?: Context<RootEditorWrapper<Definition> | null>;
