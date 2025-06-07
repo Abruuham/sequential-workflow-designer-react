@@ -45,8 +45,8 @@
 		"test": "jest --clearCache && jest --watchAll"
 	},
 	"peerDependencies": {
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
+		"react": ">=18.2.0",
+		"react-dom": ">=18.2.0",
 		"sequential": "github:Abruuham/sequential#main"
 	},
 	"devDependencies": {
